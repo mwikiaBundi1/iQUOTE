@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Quotes';
+  quote = 'I would rather be an artist than a leader';
 }
+
