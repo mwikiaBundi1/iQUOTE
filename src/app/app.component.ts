@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  quote = 'I would rather be an artist than a leader';
+  
+  quotes:string[];
+
+  constructor(){
+    this.quotes = ['I would rather be an artist than a leader', 'Better late than never', 'Unity is strength']
+  } 
 }
 
