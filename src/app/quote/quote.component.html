@@ -6,7 +6,7 @@
         <!-- {{quote.id}} -->
         <li>{{quote.name}}</li>
         <button (click)='toggleDetails(i)'>Toggle Details</button>
-        <app-quote-details *ngIf='quote.showDescription' [quote]='quote'></app-quote-details>
+        <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeGoal($event,i)'></app-quote-details>
         <!-- {{quote.description}} -->
       </div>
     </ul>
