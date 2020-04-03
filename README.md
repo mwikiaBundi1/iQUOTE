@@ -13,7 +13,7 @@ Technologies Used
      *Typescript
 
 GitHub link
-To open My-Portfolio Click Here 
+To open My-Portfolio Click Here
 
 Support and contact details
 For any question reach me via email: mwikiam@gmail.com.
