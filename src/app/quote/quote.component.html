@@ -6,7 +6,7 @@
     <div *ngFor='let quote of quotes;let i=index'>
       <div>
         <!-- {{quote.id}} -->
-        <li appStrikethrough>{{quote.name}} created on{{quote.completeDate|date|uppercase}}</li>
+        <h6 id={{i}}  appStrikethrough>{{quote.name}} created on{{quote.completeDate|date|uppercase}}</h6>
         <button (click)='toggleDetails(i)'>Toggle Details</button>
       </div>
 
@@ -16,8 +16,11 @@
       </div>
     </div>
   </div>
+  <div class="col-md-6">
+    <app-quote-form></app-quote-form> 
+    <!-- <app-extract-form></app-extract-form> -->
+    <!-- <app-qoute-form-sample></app-qoute-form-sample> -->
+  </div>
 </div>
 
 
-
- 

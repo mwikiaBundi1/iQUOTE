@@ -1,2 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-size: cover;
+    background-position-y: 100%;
+    background-position-x: 100;
+    background-image:url(https://bit.ly/3bM778t);
+}
+
+img{
+    height:50px;
+    width:50px;
+}
+

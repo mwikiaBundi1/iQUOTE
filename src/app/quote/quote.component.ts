@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Quote } from '../quote';
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.scss']
 })
+
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
     new Quote(1,'I would rather be an artist than a leader','By Klein, 5 votes',new Date(2016,3,14)),
@@ -31,6 +33,12 @@ export class QuoteComponent implements OnInit {
       if (toDelete){
         this.quotes.splice(index,1)
       }
+      // addNewQuote(this.quote){
+      //   // let goalLength = this.quotes.length;
+      //   quote.id = goalLength+1;
+      //   quote.completeDate = new Date(quote.completeDate)
+      //   this.quotes.push(this.quotes)
+
     }
   }
   constructor() { }

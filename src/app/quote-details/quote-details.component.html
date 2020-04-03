@@ -30,14 +30,12 @@
     
       <p>{{quote.description}}</p>
       <button (click)= 'quoteComplete(true)'>Complete</button>
-      <!-- <p>{{numberOflikes}}</p> 
-<button ng-click)='likebuttonclick()'>Like</button>
-<button ng-click)='dislikebuttonclick()'>Dislike</button> -->
 
-<!-- 
-<p>This quote will be complete in {{quotecompleteDate|dateCount}} days</p> -->
+      <p id="like"><span (click)="countLikeclick()"><img class="logo" src="https://bit.ly/3bLdPeR"/></span>{{clickCounter}}</p>
+      <p id="dislike"><span (click)="countDislikeclick()"><img class="logo" src="https://bit.ly/2JCjXKo"/></span> {{clickCounter1}}</p>
 <div class="post">
-<p>Posted:{{quote.completeDate|dateCount}}days ago</p>
+
+  <p>Posted:{{quote.completeDate|dateCount}}days ago</p>
 </div>
 <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete quoteDelete</button>
 
