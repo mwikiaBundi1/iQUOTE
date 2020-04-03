@@ -14,7 +14,7 @@ export class QuoteDetailsComponent implements OnInit {
   @Input() quote:Quote;
   clickCounter: number=0;
   clickCounter1:number=0;
-
+ 
   constructor() { }
 
   ngOnInit(): void {
