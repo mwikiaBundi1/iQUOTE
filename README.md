@@ -13,7 +13,7 @@ Technologies Used
      *Typescript
 
 GitHub link
-To open My-Quote Click Here
+To open My-Quote Click Here https://github.com/mwikiaBundi1/iQUOTE
 
 Support and contact details
 For any question reach me via email: mwikiam@gmail.com.
